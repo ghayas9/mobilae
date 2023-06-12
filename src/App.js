@@ -1,8 +1,22 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Header from './Components/Header';
+import Home from './Pages/Home';
+import Footer from './Components/Footer';
 function App() {
   return (
-    <div className="App">
+    <>
+      <Header/>
+
+      {/* Page */}
+          <Home/>
+      {/* Page */}
+
+      <Footer/>
       
-    </div>
+      <img src={require("./assets/Img/test.png")} alt="" srcset="" 
+      style={{width:'100%'}}
+      />
+    </>
   );
 }
 
