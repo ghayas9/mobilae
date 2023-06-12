@@ -9,13 +9,13 @@ export default function LeftSection() {
     "Vul hiernaast uw gegevens in en ontvang de gratis traplift brochure",
   ];
   return (
-    <div className="container " style={{zIndex:'1000'}}>
+    <div className="container " >
       <div className="row px-lg-5 d-flex justify-content-end">
         <img
           src={book}
           alt=""
           className="img-fluid"
-          style={{ marginTop: "-50px" }}
+          style={{ marginTop: "-50px" ,zIndex:'1000'}}
         />
 
         <h2 style={{fontWeight:'900'}}>Veiliger wonen in uw eigen huis</h2>
