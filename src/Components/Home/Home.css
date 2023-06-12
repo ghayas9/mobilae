@@ -1,7 +1,5 @@
 /* Top Section */
-.topbar{
-   margin-bottom: -25px;     
-}
+
 .round-circle{
     position: absolute;
     background-color: orangered;
@@ -31,9 +29,7 @@
     .round-circle h4{
         font-size: 22px;
     }
-    .topbar .rtimg{
-        margin-bottom: 25px;
-    }
+    
   }
 
 
@@ -41,6 +37,13 @@
 
   .RightSection form{
     background-color: rgb(104, 185, 165);
+  }
+  .RightSection form h3{
+    color: white;
+    text-align: center;
+  }
+  .RightSection form h3 span{
+    font-weight: bold;
   }
   .RightSection form button{
     background-color: orangered;

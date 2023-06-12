@@ -15,6 +15,7 @@ export default function RightSection() {
 
       <div className="row row px-lg-5  d-flex justify-content-start mt-5">
         <form className="card p-5">
+          <h3 > <span>JA,</span> stuur mij de gratis traplift brochure</h3>
           <div className="form-group mt-2">
             <label for="exampleInputEmail1">Aanhef:</label>
             <select className="form-control form-control">
