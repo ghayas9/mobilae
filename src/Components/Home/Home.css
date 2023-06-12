@@ -1,5 +1,7 @@
 /* Top Section */
-
+.topbar{
+   margin-bottom: -25px;     
+}
 .round-circle{
     position: absolute;
     background-color: orangered;
@@ -11,7 +13,7 @@
     color: white;
     padding: 20px;
     left: 20%;
-    top: 20%;
+    top: 10%;
     font-size: 22px;
 }
 .round-circle h4{
@@ -29,4 +31,42 @@
     .round-circle h4{
         font-size: 22px;
     }
+    .topbar .rtimg{
+        margin-bottom: 25px;
+    }
+  }
+
+
+  /* RightSection */
+
+  .RightSection form{
+    background-color: rgb(104, 185, 165);
+  }
+  .RightSection form button{
+    background-color: orangered;
+    color: white;
+    font-weight: bolder;
+  }
+
+  /* BottomSection */
+
+  .BottomSection{
+    background-color: rgb(185, 231, 252);
+  }
+  
+
+  .Footer{
+    background-color: rgba(85, 88, 94, 0.959);
+  }
+  .Footer ul{
+    display: flex;
+    padding: 20px 0px;
+    justify-content: center;
+    align-items: center;
+  }
+  .Footer ul li{
+    list-style: none;
+    padding: 5px;
+    color: white;
+    font-size: 18px;
   }

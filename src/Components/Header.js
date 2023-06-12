@@ -7,7 +7,7 @@ import rating from "../assets/Img/sterren.jpg";
 export default function Header() {
   return (
     <Navbar  expand="lg">
-      <Container style={{marginBottom:'-25px',padding:'0px 50px'}}>
+      <Container  className="px-lg-5 topbar">
         <Navbar.Brand href="#home">
           <img
             src={logo}
@@ -22,7 +22,7 @@ export default function Header() {
             <img
               src={rating}
               width="180px"
-              className="d-inline-block align-top"
+              className="d-inline-block align-top rtimg"
               alt="rating"
             />
           </Navbar.Text>
